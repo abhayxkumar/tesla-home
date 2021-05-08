@@ -1,4 +1,5 @@
-.item{
+.item {
+    scroll-snap-align: start;
     height: 100vh;
     width: 100vw;
     background-position: center;
@@ -6,16 +7,17 @@
     background-size: cover;
     display: flex;
     justify-content: center;
+    
 }
 
-.item__container{
+.item__container {
     width: 40vw;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.item__text{
+.item__text {
     margin-top: 20%;
     display: flex;
     flex-direction: column;
@@ -25,12 +27,12 @@
     flex: 1;
 }
 
-.item__textDesc{
+.item__Desc {
     font-weight: 200;
     font-size: 14px;
 }
 
-.item__lowerThird{
+.item__lowerThird {
     margin-bottom: 5%;
     display: flex;
     flex-direction: column;
@@ -46,4 +48,3 @@
     margin-top: 3%;
     justify-content: center;
 }
-
