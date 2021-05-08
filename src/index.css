@@ -1,6 +1,6 @@
 @font-face {
   font-family: 'iCielMedium';
-  src: local('iCielMedium'), url('./fonts/iCielMedium.ttf') format(truetype);
+  src: local('iCiel-Gotham-Medium'), url('./fonts/iCiel-Gotham-Medium.ttf') format('truetype');
   font-weight: normal;
 }
 
